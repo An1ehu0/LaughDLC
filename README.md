@@ -7,6 +7,16 @@
 - 目标平台：Windows x64（实际验证环境：Windows 11 26100，x64）
 - 发布：自包含、单文件、`PublishTrimmed=false`
 
+## 下载
+
+**[下载 LaughDLC.exe（Windows x64，约 112 MiB）](https://github.com/An1ehu0/LaughDLC/releases/latest/download/LaughDLC.exe)**
+
+最新版本 `v1.0.0`，自包含单文件，无需安装 .NET Runtime。
+
+SHA256：`B72C34E4B3E947B95048FF10AD82B55257C4765ABA7AD779288E473B16D18E70`
+
+也可以从 [Releases](https://github.com/An1ehu0/LaughDLC/releases) 页面手动下载。
+
 ## 项目结构
 
 ```
@@ -189,6 +199,7 @@ src\LaughDlc\bin\Release\net10.0-windows\win-x64\publish\LaughDLC.exe
 - SHA256：`B72C34E4B3E947B95048FF10AD82B55257C4765ABA7AD779288E473B16D18E70`
 - 在当前 Windows 11 x64 环境直接启动发布 EXE，选择 MP3 播放、停止、快捷键触发、关闭隐藏、重复启动激活均正常
 - `PublishTrimmed=false`，未启用裁剪
+- GitHub Release `v1.0.0` 已上传 `LaughDLC.exe`；直接下载地址实测可下载，下载文件 SHA256 与本地发布产物一致
 
 未验证项：
 
